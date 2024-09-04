@@ -1,0 +1,199 @@
+
+@font-face {
+    src: url(./fonts/AbhayaLibre-Regular.ttf);
+    font-family: "Abhaya Libre";
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(./fonts/Simonetta-Black.ttf);
+    font-family: "Simonetta";
+    font-weight: 400;
+}
+
+
+:root {
+    font-size: 16px;
+}
+
+  
+body {
+    background-color: #d9d9d9;
+    background-image: url(./img/background.png);
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 4rem;
+}
+h2 {
+    font-family: "Abhaya Libre";
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1.6rem;
+}
+
+img {
+    width: 100%;
+}
+
+.negocios {
+    max-width: 100vw;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 10px;
+}
+
+.negocio {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    max-width: 21vw;
+    height: auto;
+    border: 3px solid #222;
+    padding: 0px 4px;
+}
+.negocio p {
+    font-family: "Simonetta";
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.negocio img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.ig-accounts{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+
+.ig-accounts div {
+    height: 50%;
+    border: 4px solid #222;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    width: 70%;
+    transform: translate(0, 35%)
+}
+
+.ig-accounts div p{
+    font-family: "Simonetta";
+    font-size: 2.2rem;
+    text-align: center;
+    margin-right: 1%;
+}
+
+.ig-accounts div img{
+    width: 75%;
+    height: auto;
+    margin-left: 8%;
+}
+
+
+.ig-accounts article{
+    width: 30%;
+    position: relative;
+}
+
+.ig-accounts article img{
+    width: 100%;
+    height: auto;
+}
+
+.ig-accounts article ul{
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -60%)
+}
+
+.cuenta-ig a{
+    font-family: "Simonetta";
+    font-size: 1.3rem;
+    color: #222;
+    text-decoration: none
+}
+
+.cuenta-ig :hover{
+    color: #22222273
+}
+
+footer {
+    display: flex;
+    margin-top: 2%;
+    flex-flow: column wrap;
+    width: 100%;
+}
+
+.pasos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: 'Abhaya Libre';
+}
+
+.pasos div{
+    width: 33%;
+    background-color: #f9f4f4;
+    border-right: 3px #222 solid;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    padding: 1%;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.pasos div:last-child{
+    background-color: #f9f4f4;
+    border: 0;
+}
+
+.pasos div p{
+    margin: 0;
+}
+
+
+svg {
+    width: 20%;
+    color: #471c00;
+    margin: 0;
+}
+
+
+.footer-text {
+    text-align: center;
+    color: #222;
+    font-size: 1.3rem;
+    font-family: 'Abhaya Libre';
+}
+
+
+@media only screen and (max-width : 425px) {
+    :root {
+        font-size: 4px;
+    }
+}
+
+@media (max-width: 767px) {
+    
+}
