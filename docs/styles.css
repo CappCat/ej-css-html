@@ -267,6 +267,23 @@ svg {
     
 }
 
-@media (max-width: 767px) {
-    
+@media only screen and (max-width: 767px) {
+    :root {
+        font-size: 8px;
+    }
+    .ig-accounts div p{
+        font-size: 1.4rem;
+    }
+    .negocio{
+        max-width: 20vw;
+    }
+    .ig-accounts article ul{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-60%, -60%)
+    }
+    .cuenta-ig a{
+        font-size: 0.9rem;
+    }
 }
