@@ -218,7 +218,7 @@ svg {
         flex-flow: column wrap;
         justify-content: space-evenly;
         max-width: 50vw;
-        height: auto;
+        height: 190px;
         border: 3px solid #222;
         padding: 0px 4px;
     }
