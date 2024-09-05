@@ -192,6 +192,79 @@ svg {
     :root {
         font-size: 4px;
     }
+
+    h1 {
+        margin-bottom: 3px;
+        font-size: 12rem;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+
+    .negocios {
+        max-width: 100vw;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        margin: 0 30px;
+        gap: 10px;
+    }
+    .negocio {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        max-width: 50vw;
+        height: auto;
+        border: 3px solid #222;
+        padding: 0px 4px;
+    }
+    .negocio p {
+        font-family: "Simonetta";
+        text-align: center;
+        font-size: 4rem;
+        margin: 0;
+    }
+    .ig-accounts{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        margin: 0;
+    }
+
+    .ig-accounts div {
+        width: 90%;
+    }
+    
+    .ig-accounts div p{
+        font-size: 3rem;
+    }
+    .ig-accounts article{
+        width: 50%;
+        position: relative;
+        margin-top: 20px;
+    }
+    .ig-accounts article ul{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-60%, -50%)
+    }
+    
+    .cuenta-ig a{
+        font-size: 2.5rem;
+    }
+    .pasos {
+        font-size: 2.5rem;
+    }
+
+    .footer-text {
+        font-size: 4rem;
+    }
+    
 }
 
 @media (max-width: 767px) {
