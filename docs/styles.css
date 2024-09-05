@@ -102,6 +102,11 @@ img {
     margin-left: 8%;
 }
 
+.ig-accounts div img:hover{
+    cursor: pointer;
+    opacity: 0.7;    
+}
+
 
 .ig-accounts article{
     width: 30%;
@@ -187,6 +192,26 @@ svg {
     font-family: 'Abhaya Libre';
 }
 
+@media only screen and (max-width: 767px) {
+    :root {
+        font-size: 8px;
+    }
+    .ig-accounts div p{
+        font-size: 1.4rem;
+    }
+    .negocio{
+        max-width: 20vw;
+    }
+    .ig-accounts article ul{
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(-60%, -60%)
+    }
+    .cuenta-ig a{
+        font-size: 0.9rem;
+    }
+}
 
 @media only screen and (max-width : 425px) {
     :root {
@@ -265,25 +290,4 @@ svg {
         font-size: 4rem;
     }
     
-}
-
-@media only screen and (max-width: 767px) {
-    :root {
-        font-size: 8px;
-    }
-    .ig-accounts div p{
-        font-size: 1.4rem;
-    }
-    .negocio{
-        max-width: 20vw;
-    }
-    .ig-accounts article ul{
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(-60%, -60%)
-    }
-    .cuenta-ig a{
-        font-size: 0.9rem;
-    }
 }
